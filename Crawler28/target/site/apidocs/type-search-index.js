@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"com.mycompany.crawler28","l":"PDFGeneratorApp"},{"p":"com.mycompany.crawler28","l":"ProductComparisonApp"}];updateSearchResults();

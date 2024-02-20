@@ -1,0 +1,70 @@
+@options
+@packages
+-classpath
+'C:/Users/macie/.m2/repository/org/jsoup/jsoup/1.17.2/jsoup-1.17.2.jar;C:/Users/macie/.m2/repository/com/nelkinda/japi/nelkinda-japi-swing/0.0.1/nelkinda-japi-swing-0.0.1.jar;C:/Users/macie/.m2/repository/org/apache/pdfbox/pdfbox/2.0.27/pdfbox-2.0.27.jar;C:/Users/macie/.m2/repository/org/apache/pdfbox/fontbox/2.0.27/fontbox-2.0.27.jar;C:/Users/macie/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar;C:/Users/macie/.m2/repository/com/helger/ph-pdf-layout/2.2.0/ph-pdf-layout-2.2.0.jar;C:/Users/macie/.m2/repository/com/helger/ph-commons/6.2.3/ph-commons-6.2.3.jar;C:/Users/macie/.m2/repository/com/google/code/findbugs/annotations/2.0.3/annotations-2.0.3.jar;C:/Users/macie/.m2/repository/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar;C:/Users/macie/.m2/repository/com/helger/ph-fonts-api/2.1.0/ph-fonts-api-2.1.0.jar;C:/Users/macie/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.12/jcl-over-slf4j-1.7.12.jar;C:/Users/macie/.m2/repository/org/lockss/pdfbox/0.7.3-p1/pdfbox-0.7.3-p1.jar;C:/Users/macie/.m2/repository/ant/ant/1.6.2/ant-1.6.2.jar;C:/Users/macie/.m2/repository/bouncycastle/bcprov-jdk14/136/bcprov-jdk14-136.jar;C:/Users/macie/.m2/repository/bouncycastle/bcmail-jdk14/136/bcmail-jdk14-136.jar;C:/Users/macie/.m2/repository/checkstyle/checkstyle/4.2/checkstyle-4.2.jar;C:/Users/macie/.m2/repository/antlr/antlr/2.7.6/antlr-2.7.6.jar;C:/Users/macie/.m2/repository/commons-beanutils/commons-beanutils-core/1.7.0/commons-beanutils-core-1.7.0.jar;C:/Users/macie/.m2/repository/commons-cli/commons-cli/1.0/commons-cli-1.0.jar;C:/Users/macie/.m2/repository/commons-lang/commons-lang/1.0/commons-lang-1.0.jar;C:/Users/macie/.m2/repository/commons-collections/commons-collections/2.1/commons-collections-2.1.jar;C:/Users/macie/.m2/repository/checkstyle/checkstyle-optional/4.2/checkstyle-optional-4.2.jar;C:/Users/macie/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar;C:/Users/macie/.m2/repository/org/apache/lucene/lucene-core/2.0.0/lucene-core-2.0.0.jar;C:/Users/macie/.m2/repository/org/apache/lucene/lucene-demos/2.0.0/lucene-demos-2.0.0.jar;C:/Users/macie/.m2/repository/org/fontbox/fontbox/0.1.0/fontbox-0.1.0.jar'
+-encoding
+'UTF-8'
+-protected
+--release
+17
+-sourcepath
+'G:/Java Projects/Crawler28/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2024. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'G:/Java Projects/Crawler28/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'Crawler28 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'Crawler28 1.0-SNAPSHOT API'
+com.mycompany.crawler28
+C:\Users\macie\.m2\repository\org\jsoup\jsoup\1.17.2\jsoup-1.17.2.jar = 1705157513305
+C:\Users\macie\.m2\repository\com\nelkinda\japi\nelkinda-japi-swing\0.0.1\nelkinda-japi-swing-0.0.1.jar = 1705166102342
+C:\Users\macie\.m2\repository\org\apache\pdfbox\pdfbox\2.0.27\pdfbox-2.0.27.jar = 1705168049817
+C:\Users\macie\.m2\repository\org\apache\pdfbox\fontbox\2.0.27\fontbox-2.0.27.jar = 1705168393522
+C:\Users\macie\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar = 1701525324151
+C:\Users\macie\.m2\repository\com\helger\ph-pdf-layout\2.2.0\ph-pdf-layout-2.2.0.jar = 1705169202076
+C:\Users\macie\.m2\repository\com\helger\ph-commons\6.2.3\ph-commons-6.2.3.jar = 1705168044959
+C:\Users\macie\.m2\repository\com\google\code\findbugs\annotations\2.0.3\annotations-2.0.3.jar = 1705168044760
+C:\Users\macie\.m2\repository\org\slf4j\slf4j-api\1.7.12\slf4j-api-1.7.12.jar = 1705168044798
+C:\Users\macie\.m2\repository\com\helger\ph-fonts-api\2.1.0\ph-fonts-api-2.1.0.jar = 1705168044832
+C:\Users\macie\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.12\jcl-over-slf4j-1.7.12.jar = 1705168044849
+C:\Users\macie\.m2\repository\org\lockss\pdfbox\0.7.3-p1\pdfbox-0.7.3-p1.jar = 1705168409599
+C:\Users\macie\.m2\repository\ant\ant\1.6.2\ant-1.6.2.jar = 1705168409616
+C:\Users\macie\.m2\repository\bouncycastle\bcprov-jdk14\136\bcprov-jdk14-136.jar = 1705168079197
+C:\Users\macie\.m2\repository\bouncycastle\bcmail-jdk14\136\bcmail-jdk14-136.jar = 1705168079077
+C:\Users\macie\.m2\repository\checkstyle\checkstyle\4.2\checkstyle-4.2.jar = 1705168409589
+C:\Users\macie\.m2\repository\antlr\antlr\2.7.6\antlr-2.7.6.jar = 1705168409537
+C:\Users\macie\.m2\repository\commons-beanutils\commons-beanutils-core\1.7.0\commons-beanutils-core-1.7.0.jar = 1705168409579
+C:\Users\macie\.m2\repository\commons-cli\commons-cli\1.0\commons-cli-1.0.jar = 1705168409583
+C:\Users\macie\.m2\repository\commons-lang\commons-lang\1.0\commons-lang-1.0.jar = 1705168409650
+C:\Users\macie\.m2\repository\commons-collections\commons-collections\2.1\commons-collections-2.1.jar = 1705168409644
+C:\Users\macie\.m2\repository\checkstyle\checkstyle-optional\4.2\checkstyle-optional-4.2.jar = 1705168409649
+C:\Users\macie\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar = 1705168409650
+C:\Users\macie\.m2\repository\org\apache\lucene\lucene-core\2.0.0\lucene-core-2.0.0.jar = 1705168409675
+C:\Users\macie\.m2\repository\org\apache\lucene\lucene-demos\2.0.0\lucene-demos-2.0.0.jar = 1705168409681
+C:\Users\macie\.m2\repository\org\fontbox\fontbox\0.1.0\fontbox-0.1.0.jar = 1705168079008
+G:\Java Projects\Crawler28\src\main\java = 1705167659140
+G:\Java Projects\Crawler28\target\site\apidocs\allclasses-index.html = 1705171314739
+G:\Java Projects\Crawler28\target\site\apidocs\allpackages-index.html = 1705171314740
+G:\Java Projects\Crawler28\target\site\apidocs\element-list = 1705171314711
+G:\Java Projects\Crawler28\target\site\apidocs\help-doc.html = 1705171314751
+G:\Java Projects\Crawler28\target\site\apidocs\index-all.html = 1705171314747
+G:\Java Projects\Crawler28\target\site\apidocs\index.html = 1705171314749
+G:\Java Projects\Crawler28\target\site\apidocs\jquery-ui.overrides.css = 1705171314757
+G:\Java Projects\Crawler28\target\site\apidocs\member-search-index.js = 1705171314742
+G:\Java Projects\Crawler28\target\site\apidocs\module-search-index.js = 1705171314741
+G:\Java Projects\Crawler28\target\site\apidocs\overview-tree.html = 1705171314733
+G:\Java Projects\Crawler28\target\site\apidocs\package-search-index.js = 1705171314741
+G:\Java Projects\Crawler28\target\site\apidocs\script.js = 1705171314752
+G:\Java Projects\Crawler28\target\site\apidocs\search.js = 1705171314754
+G:\Java Projects\Crawler28\target\site\apidocs\stylesheet.css = 1705171314752
+G:\Java Projects\Crawler28\target\site\apidocs\tag-search-index.js = 1705171314742
+G:\Java Projects\Crawler28\target\site\apidocs\type-search-index.js = 1705171314741
