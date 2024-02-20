@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KorektAI - Walidacja Pomysłów Biznesowych</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Your CSS styles here */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #235da0;
+            color: #fff;
+            padding: 10px;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav li {
+            margin: 0 15px;
+        }
+        .cta-button {
+            background-color: #235da0;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+        }
+        .cta-button:hover {
+            background-color: #1a4782;
+        }
+        section {
+            padding: 40px;
+        }
+        h1 {
+            font-size: 36px;
+            color: #333;
+        }
+        p {
+            font-size: 18px;
+            color: #333;
+        }
+        .user-actions {
+            display: flex;
+        }
+        .user-actions a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .user-actions a:hover {
+            text-decoration: underline;
+        }
+        #chatbox {
+            max-height: 200px;
+            overflow-y: scroll;
+            padding: 10px;
+        }
+        #chatbox p {
+            margin: 5px 0;
+        }
+        #user-input {
+            width: 70%;
+            padding: 10px;
+            margin-right: 10px;
+        }
+        #chatbot button {
+            background-color: #235da0;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+        }
+        #chatbot button:hover {
+            background-color: #1a4782;
+        }
+        #affiliate h2 {
+            font-size: 24px;
+            color: #333;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .form-field {
+            margin: 10px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+        }
+        input[type="checkbox"] {
+            margin-right: 5px;
+        }
+    </style>
+    <script>
+        // Sample chatbot responses
+        const responses = {
+            "Witaj": "Cześć! Jak mogę Ci dzisiaj pomóc?",
+            "Co robisz?": "Mogę pomóc Ci z walidacją pomysłów biznesowych i dostarczaniem informacji z nimi związanych.",
+            "Kontakt": "Możesz się z nami skontaktować pod adresem contact@example.com lub telefonicznie pod numerem +123456789.",
+            // Add more responses here
+        };
+
+        function chatbotResponse(message) {
+            message = message.trim();
+            const chatbox = document.getElementById("chatbox");
+            const userMessage = `<p><strong>Użytkownik:</strong> ${message}</p>`;
+            chatbox.innerHTML += userMessage;
+
+            const botResponse = responses[message] || "Nie jestem pewien, jak odpowiedzieć na to pytanie.";
+            const botMessage = `<p><strong>Chatbot:</strong> ${botResponse}</p>`;
+            chatbox.innerHTML += botMessage;
+        }
+
+        // Function to set a cookie that records user's consent
+        function setCookie(cname, cvalue, exdays) {
+            // Your cookie setting logic
+        }
+
+        // Function to check if the user has already consented
+        function checkCookie(cname) {
+            // Your cookie checking logic
+        }
+
+        // Function to show the cookie consent popup if the user has not consented
+        function showCookieConsent() {
+            // Your popup showing logic
+        }
+    </script>
+</head>
+<body onload="showCookieConsent()">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#funkcje">Funkcje</a></li>
+                <li><a href="#testimonials">Referencje</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+            <div class="user-actions">
+                <a href="login.html" class="cta-button">Zaloguj</a>
+                <a href="signup.html" class="cta-button">Zarejestruj</a>
+            </div>
+        </nav>
+    </header>
+    <section id="hero">
+        <h1>Walidacja Pomysłów Biznesowych</h1>
+        <p>Skorzystaj z sztucznej inteligencji do natychmiastowej walidacji pomysłów biznesowych, zaoszczędź cenny czas, podejmij decyzję o ewentualnej zmianie kierunku i mądrze inwestuj.</p>
+        <a href="#funkcje" class="cta-button">Dowiedz się więcej</a>
+    </section>
+    <!-- Rest of your website content -->
+
+    <!-- Chatbot Section -->
+    <section id="chatbot">
+        <div id="chatbox">
+            <!-- Chat messages will be displayed here -->
+        </div>
+        <input type="text" id="user-input" placeholder="Napisz wiadomość...">
+        <button onclick="chatbotResponse(document.getElementById('user-input').value)">Wyślij</button>
+    </section>
+
+    <!-- Affiliate Program Section -->
+    <section id="affiliate">
+        <h2>KorektAI Affiliate</h2>
+        <p>Dołącz do programu partnerskiego KorektAI i otrzymuj 20% prowizji od wszystkich płatności dokonanych przez klientów, których przekierujesz na www.korekt.ai!</p>
+        <form>
+            <div class="form-field">
+                <label for="first-name">Imię</label>
+                <input type="text" id="first-name" name="first-name">
+            </div>
+            <div class="form-field">
+                <label for="last-name">Nazwisko</label>
+                <input type="text" id="last-name" name="last-name">
+            </div>
+            <div class="form-field">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="form-field">
+                <label for="password">Hasło</label>
+                <input type="password" id="password" name="password" minlength="8">
+            </div>
+            <div class="form-field">
+                <label for="confirm-password">Potwierdź hasło</label>
+                <input type="password" id="confirm-password" name="confirm-password" minlength="8">
+            </div>
+            <div class="form-field">
+                <input type="checkbox" id="agree-terms" name="agree-terms">
+                <label for="agree-terms">Akceptuję <a href="https://korekt.ai/warunki-partnerskie" target="_blank">Warunki Programu Partnerskiego</a>.</label>
+            </div>
+            <button type="submit">Zarejestruj się</button>
+        </form>
+        <p>Posiadasz już konto? <a href="login.html">Zaloguj się</a></p>
+    </section>
+
+    <!-- Privacy Policy and Terms and Conditions should be placed here -->
+
+    <!-- Cookie Consent Popup -->
+    <div id="cookie-popup" class="cookie-popup">
+        <p>Ta strona używa plików cookies w celu zwiększenia komfortu użytkowania.</p>
+        <button onclick="setCookie('cookie_consent', 'true', 365)">Rozumiem</button>
+    </div>
+
+    <footer>
+        <ul class="footer-links">
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#example-reports">Przykładowe Raporty</a></li>
+            <li><a href="#terms">Regulamin</a></li>
+            <li><a href="#privacy">Polityka Prywatności</a></li>
+            <li><a href="#program-afiliacyjny">Program Partnerski</a></li>
+        </ul>
+        <p>&copy; 2023 KorektAI</p>
+    </footer>
+</body>
+</html>
